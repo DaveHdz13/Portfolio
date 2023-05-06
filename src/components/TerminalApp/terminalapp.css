@@ -1,0 +1,31 @@
+.terminal {
+	width: 30vw;
+	height: 30vh;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	color: #fff;
+}
+.terminal-title {
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+.terminal-content {
+	background-color: #0F0F0F;
+	padding: 20px 0 0 30px;
+	height: 100%;
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
+.green-txt {
+	padding: 30px 10px 0 0;
+	text-align: center;
+	color: #94FF52;
+	font-size: 3em;
+}
+#cursor {
+  margin: 0;
+  display: inline-block;
+}
