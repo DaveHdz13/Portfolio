@@ -1,12 +1,13 @@
 import React from "react";
-import '../Home/home.css';
+import './home.css';
 import avatar02 from '../../assets/Avatar02.png';
+import TerminalApp from "../TerminalApp/TerminalApp";
 
 function Home() {
   return (
     <section className="home-section">
       <div className="left">
-        <h2>Terminal here!</h2>
+        <TerminalApp />
       </div>
       <div className="right">
         <img src={avatar02} alt="avatar" />
