@@ -15,8 +15,17 @@
 	margin: 10px;
 	cursor: pointer;
 }
-.menu li:hover {
-	border-bottom: 1px solid #fff;
+#anchor01:hover {
+  border-bottom: 2px solid #94FF52;
+}
+#anchor02:hover {
+  border-bottom: 2px solid #FFE600; 
+}
+#anchor03:hover {
+  border-bottom: 2px solid #00FFF0; 
+}
+#anchor04:hover {
+  border-bottom: 2px solid #94FF52; 
 }
 li > a {
 	text-decoration: none;
