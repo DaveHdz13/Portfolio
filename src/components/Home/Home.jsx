@@ -1,6 +1,6 @@
 import React from "react";
 import './home.css';
-import avatar02 from '../../assets/Avatar02.png';
+//import avatar02 from '../../assets/Avatar02.png';
 import TerminalApp from "../TerminalApp/TerminalApp";
 
 // The 'avatar' is going to be a 3D model that interacts when hover :D
@@ -11,9 +11,7 @@ function Home() {
       <div className="left">
         <TerminalApp />
       </div>
-      <div className="right">
-        <img src={avatar02} alt="avatar" />
-      </div>
+      <div className="right"></div>
     </section>
   )
 }
