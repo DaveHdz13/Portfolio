@@ -11,7 +11,7 @@ function Home() {
       <div className="left">
         <TerminalApp />
       </div>
-      <div className="right"></div>
+      <div className="right avatar-bg"></div>
     </section>
   )
 }

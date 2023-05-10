@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
 }
-.right {
+.avatar-bg {
   background-image: url(../../assets/Avatar02.png);
   background-repeat: no-repeat;
   background-size: 80%;
