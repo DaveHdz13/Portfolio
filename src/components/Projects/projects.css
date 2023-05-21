@@ -1,0 +1,41 @@
+.projects-section {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.right, .left {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-section > .right {
+  flex-direction: column;
+  color: #fff;
+}
+.projects-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.project {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.project > img {
+  width: 200px;
+  height: 200px;
+}
+.project-github {
+  display: flex;
+  width: 250px;
+}
+.project-cover {
+  width: 80%;
+}
+.github-link {
+  width: 20%;
+}
