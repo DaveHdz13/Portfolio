@@ -11,11 +11,13 @@ function TerminalApp() {
 	const terminal = useRef();
 
 	// To do the animaton when the component is mounted
+  // {opacity: 1, repeat: -1, ease: SteppedEase.config(37)}
 	useLayoutEffect(() => {
 		const ctx = gsap.context(() => {
 			// Check the cursor to blip and stay at the end of the text
-			gsap.fromTo('#cursor', {autoAlpha: 0, x:-10}, {autoAlpha: 1, duration: 0.5, repeat: -1, ease: SteppedEase.config(1)});
-			gsap.to(".green-txt", {text: {value: "Hello I'm David! :D"}, duration: 2, delay: 1, ease: "none"});
+      //gsap.fromTo('.green-txt', {duration: 8, width: "0"}, {width: "auto", ease:  SteppedEase.config(19)});
+			gsap.to(".green-txt", {text: {value: "Hello I'm David! :D"}, duration: 3, delay: 1, ease: SteppedEase.config(19)});
+			gsap.fromTo('#text', {duration: 2, "border-right-color": "rgba(255,255,255,0.75)"}, {"border-right-color": "rgba(255,255,255,0)", repeat: -1, ease:  SteppedEase.config(19)});
 		}, terminal)
 
 		return () => ctx.revert();
@@ -31,9 +33,8 @@ function TerminalApp() {
 					<p>Dev Windows Version 1.0</p>
 					<p>C:\Users\Dave:</p>
 				</div>
-				<div className="text green-txt anim-typewriter">
+				<div className="text green-txt">
 					<span id="text"></span>
-					<span id="cursor">|</span>
 				</div>
 			</div>
 		</section>
