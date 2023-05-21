@@ -33,9 +33,9 @@ function AboutMe() {
             </div>
             <img src={imgTest} alt="slide-img" />
           </div>
+          <div className="shape-bottom"></div>
         </div>
       </div>
-      <div className="shape-bottom"></div>
     </section>
   )
 }
