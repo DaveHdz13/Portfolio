@@ -10,32 +10,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.left {
+  justify-content: end;
 }
 .projects-section > .right {
   flex-direction: column;
   color: #fff;
 }
 .projects-menu {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
-.project {
-  border-radius: 20px;
-  overflow: hidden;
-}
-.project > img {
-  width: 200px;
-  height: 200px;
-}
-.project-github {
-  display: flex;
-  width: 250px;
-}
-.project-cover {
+.projects-menu-title {
   width: 80%;
+  display: flex;
+  justify-content: end;
 }
-.github-link {
-  width: 20%;
+.projects-menu-title > h1 {
+  font-size: 3em;
 }

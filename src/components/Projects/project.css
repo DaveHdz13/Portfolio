@@ -1,0 +1,43 @@
+.project {
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.project > img {
+  width: 200px;
+  height: 200px;
+}
+.project > span {
+  background-color: #0055D3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 2em;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+span:hover {
+  color: #3156B4;
+  background-color: #75FFF7;
+}
+.project-github {
+  display: flex;
+  width: 250px;
+}
+.project-cover {
+  width: 80%;
+}
+.github-link {
+  width: 20%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.github-link > img {
+  width: 80%;
+  border-radius: 50%;
+}
