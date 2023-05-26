@@ -4,6 +4,9 @@
   justify-content: space-evenly;
   align-items: center;
 }
+.projects-section > .left {
+  justify-content: end;
+}
 .right, .left {
   width: 50%;
   height: 100vh;
@@ -11,9 +14,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.left {
-  justify-content: end;
 }
 .projects-section > .right {
   flex-direction: column;
