@@ -2,7 +2,7 @@ import React from "react";
 import './terminalapp.css';
 import { Typewriter } from "react-simple-typewriter";
 
-function TerminalApp() {
+function TerminalApp({ arrText }) {
 	return(
 		<section className="terminal">
 			<div className="terminal-title">
@@ -16,7 +16,7 @@ function TerminalApp() {
 				<div className="text green-txt">
 					<span id="text">
 						<Typewriter 
-							words = {["Hello I'm Dave", "I'm a Software Developer"]}
+							words = {arrText}
 							loop = {5}
 							cursor
 							cursorStyle = '|'

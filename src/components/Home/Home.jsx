@@ -8,7 +8,9 @@ function Home() {
   return (
     <section className="home-section">
       <div className="left">
-        <TerminalApp />
+        <TerminalApp 
+          arrText={["Hello I'm Dave", "I'm a Software Developer"]}
+        />
       </div>
       <div className="right avatar-bg"></div>
     </section>

@@ -8,7 +8,9 @@ function Projects() {
   return(
     <section className="projects-section">
       <div className="left">
-        <TerminalApp />
+        <TerminalApp 
+          arrText={["There is repo for each project!", "Check them out! :D"]}
+        />
         <img src={avatarCode} alt="avatarCode" />
       </div>
       <div className="right">

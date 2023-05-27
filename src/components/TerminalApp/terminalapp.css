@@ -1,5 +1,5 @@
 .terminal {
-	width: 30vw;
+	width: 75%;
 	height: 30vh;
 	display: flex;
 	justify-content: flex-start;
@@ -24,6 +24,9 @@
 	text-align: center;
 	color: #94FF52;
 	font-size: 3em;
+}
+#text {
+	font-size: 0.9em;
 }
 #cursor {
   margin: 0;
