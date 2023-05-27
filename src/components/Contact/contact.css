@@ -20,6 +20,18 @@
 .icons-section {
   width: 30%;
 }
+.display-contact {
+  width: 50%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+/* Form styles */
 .form-section {
   width: 70%;
   display: flex;
@@ -35,26 +47,44 @@ form {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.form-box1, .form-box2 {
-  width: 50%;
-  height: 15vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.form-box {
+.main-info, .message-submit, .button-cont {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 0 30px;
+  align-items: center;
 }
-.form-box > input {
-  width: 70%;
-  height: 25vh;
+.message-submit {
+  justify-content: flex-start;
 }
 label {
   font-size: 2.5em;
+  margin: 20px 0;
+}
+.info-box01, .info-box02 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 80px;
+}
+.info-box03 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 80px;
+}
+.info-box03 > input {
+  width: 90%;
+  height: 10vh;
+}
+input {
+  width: 50%;
+  height: 3vh;
+}
+.button-cont > button {
+  width: 10%;
+  padding: 1%;
 }
