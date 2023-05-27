@@ -1,6 +1,6 @@
 .navbar {
 	display: flex;
-	height: 5vh;
+	height: 7vh;
 }
 .navbar > img {
 	background-color: #fff;
@@ -10,6 +10,7 @@
 .menu {
 	display: flex;
 	list-style: none;
+	align-items: center;
 }
 .menu li {
 	margin: 10px;

@@ -1,6 +1,7 @@
 .about-section {
 	height: 100vh;
 	color: #fff;
+	position: relative;
 }
 .content {
 	display: flex;
@@ -17,6 +18,9 @@
 	align-items: start;
 	flex-direction: column;
 	padding: 0 200px 0 200px;
+}
+.description-txt, .slider {
+	margin: 2% auto 30% auto;
 }
 #job {
 	color: #FFE600;
@@ -35,8 +39,6 @@
 .slider-title {
 	padding: 10px 0 10px 0;
 	text-align: center;
-	border: 1px solid #FFE600;
-	border-radius: 20px;
 }
 .slider {
 	width: 400px;
@@ -56,4 +58,6 @@
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: cover;
+	position: absolute;
+    bottom: 0;
 }
