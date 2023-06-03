@@ -1,0 +1,53 @@
+.icons-section {
+    width: 40%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .whats-icon {
+    width: 100px;
+    height: 100px;
+    background-image: url(/src/assets/i-whats.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .linkedIn-icon {
+    width: 100px;
+    height: 100px;
+    background-image: url(/src/assets/i-linkedin.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    grid-column: 6;
+    grid-row: 7;
+  }
+  .gmail-icon {
+    width: 100px;
+    height: 100px;
+    background-image: url(/src/assets/i-gmail.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    grid-column: 2;
+    grid-row: 6;
+  }
+  .display-contact {
+    width: 60%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 auto;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    align-self: center;
+  }

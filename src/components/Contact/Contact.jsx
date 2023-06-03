@@ -1,5 +1,6 @@
 import React from "react";
 import './contact.css';
+import Icons from "./Icons";
 
 function Contact({ id }) {
   return(
@@ -9,9 +10,7 @@ function Contact({ id }) {
         <h1>Email Me</h1>
       </div>
       <div className="contact-me">
-        <div className="icons-section">
-          <div className="display-contact">Texto</div>
-        </div>
+        <Icons />
         <div className="form-section">
           <form>
             <div className="main-info">

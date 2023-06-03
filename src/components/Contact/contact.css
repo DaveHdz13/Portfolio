@@ -17,19 +17,6 @@
   display: flex;
   align-items: center;
 }
-.icons-section {
-  width: 30%;
-}
-.display-contact {
-  width: 50%;
-  height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 20px;
-  margin: 0 auto;
-}
 
 /* Form styles */
 .form-section {
