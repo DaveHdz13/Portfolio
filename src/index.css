@@ -6,4 +6,5 @@
 body, html {
   box-sizing: border-box;
   font-family: system-ui, sans-serif;
+  scroll-behavior: smooth;
 }

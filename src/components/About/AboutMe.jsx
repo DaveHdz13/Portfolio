@@ -4,9 +4,9 @@ import imgTest from '../../assets/blenderInfografia.png'
 import { Typewriter } from "react-simple-typewriter";
 
 
-function AboutMe() {
+function AboutMe({ id }) {
   return(
-    <section className="about-section">
+    <section id={id}  className="about-section">
       <div className="content">
         <div className="description">
           <div className="description-txt">

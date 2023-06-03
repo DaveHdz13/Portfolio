@@ -4,9 +4,9 @@ import TerminalApp from "../TerminalApp/TerminalApp";
 import avatarCode from "../../assets/AvatarCode.png";
 import Project from "./Project";
 
-function Projects() {
+function Projects({ id }) {
   return(
-    <section className="projects-section">
+    <section id={id} className="projects-section">
       <div className="left">
         <TerminalApp 
           arrText={["There is repo for each project!", "Check them out! :D"]}

@@ -1,9 +1,9 @@
 import React from "react";
 import './contact.css';
 
-function Contact() {
+function Contact({ id }) {
   return(
-    <section className="contact-section">
+    <section id={id} className="contact-section">
       <div className="contact-header">
         <h1>Contact Me</h1>
         <h1>Email Me</h1>

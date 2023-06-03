@@ -7,10 +7,10 @@ function Navbar() {
     <div className="navbar">
       <img src={logo} alt="logo"></img>
       <ul className="menu">
-          <li><a id="anchor01" href="#">Home</a></li>
-          <li><a id="anchor02" href="#">About Me</a></li>
-          <li><a id="anchor03" href="#">Projects</a></li>
-          <li><a id="anchor04" href="#">Contact</a></li>
+          <li><a id="anchor01" href={`#home`}>Home</a></li>
+          <li><a id="anchor02" href={`#aboutMe`}>About Me</a></li>
+          <li><a id="anchor03" href={`#projects`}>Projects</a></li>
+          <li><a id="anchor04" href={`#contact`}>Contact</a></li>
       </ul>
     </div>
   )

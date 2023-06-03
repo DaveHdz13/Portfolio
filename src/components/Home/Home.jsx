@@ -4,9 +4,9 @@ import TerminalApp from "../TerminalApp/TerminalApp";
 
 // The 'avatar' is going to be a 3D model that interacts when hover :D
 
-function Home() {
+function Home({ id }) {
   return (
-    <section className="home-section">
+    <section id={id} className="home-section">
       <div className="left">
         <TerminalApp 
           arrText={["Hello I'm Dave", "I'm a Software Developer"]}
